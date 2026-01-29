@@ -59,18 +59,21 @@ Performance Evaluation & Visualization
 ### 🔹 Classification
 - Feature vectors normalized using L2 norm
 - Face matching performed using **City Block (L1) distance**
-- Dynamic threshold selected using percentile-based strategy
 
-## 📂 Project Structure
 
+## 📁 Project Structure
+
+Face-Recognition-Using-Statistical-Image-Analysis/
+│
 ├── face.py # MICE-based image restoration
 ├── DWT.py # DWT + Gaussian filter + IDWT
-├── mean_centring.py # Mean centering of images
-├── pCA.py # PCA-based dimensionality reduction
+├── mean_centering.py # Mean centering of images
+├── PCA.py # PCA-based dimensionality reduction
 ├── SVD.py # SVD-based feature compression
 ├── result.py # Feature extraction, classification & evaluation
 ├── requirements.txt # Required dependencies
-└── README.md
+└── README.md # Project documentation
+
 
 ## 📊 Performance Evaluation
 
