@@ -59,20 +59,23 @@ Performance Evaluation & Visualization
 ### 🔹 Classification
 - Feature vectors normalized using L2 norm
 - Face matching performed using **City Block (L1) distance**
-
-
+  
 ## 📁 Project Structure
 
+```text
 Face-Recognition-Using-Statistical-Image-Analysis/
 │
-├── face.py # MICE-based image restoration
-├── DWT.py # DWT + Gaussian filter + IDWT
-├── mean_centering.py # Mean centering of images
-├── PCA.py # PCA-based dimensionality reduction
-├── SVD.py # SVD-based feature compression
-├── result.py # Feature extraction, classification & evaluation
-├── requirements.txt # Required dependencies
-└── README.md # Project documentation
+├── face.py              # MICE-based image restoration
+├── DWT.py               # DWT + Gaussian filter + IDWT
+├── mean_centering.py    # Mean centering of images
+├── PCA.py               # PCA-based dimensionality reduction
+├── SVD.py               # SVD-based feature compression
+├── result.py            # Feature extraction, classification & evaluation
+├── metrics_results.csv  # Evaluation metrics
+├── requirements.txt     # Required dependencies
+├── README.md            # Project documentation
+└── results/             # Output results
+```
 
 
 ## 📊 Performance Evaluation
@@ -116,7 +119,7 @@ The system demonstrates effective recognition using classical techniques
 Image enhancement improves feature quality
 SVD-based feature extraction provides compact and discriminative representations
 The project validates that classical ML methods can still perform well for face recognition tasks
-!![Output 1](Output_1.png)
+!![Output 1](results/Output_1.png)
 
 🚀 Future Improvements
 Dataset-level PCA fitting instead of per-image PCA
