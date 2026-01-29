@@ -113,6 +113,7 @@ The system demonstrates effective recognition using classical techniques
 Image enhancement improves feature quality
 SVD-based feature extraction provides compact and discriminative representations
 The project validates that classical ML methods can still perform well for face recognition tasks
+!![Output 1](Output_1.png)
 
 🚀 Future Improvements
 Dataset-level PCA fitting instead of per-image PCA
