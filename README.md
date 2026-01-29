@@ -115,18 +115,22 @@ python result.py
 Each stage generates intermediate outputs required for the next step.
 
 📈 Results
+```bash
 The system demonstrates effective recognition using classical techniques
 Image enhancement improves feature quality
 SVD-based feature extraction provides compact and discriminative representations
 The project validates that classical ML methods can still perform well for face recognition tasks
 !![Output 1](results/Output_1.png)
+```
 
 🚀 Future Improvements
+```text
 Dataset-level PCA fitting instead of per-image PCA
 Replace distance-based classifier with SVM or KNN
 Compare performance with deep learning models
 Optimize runtime and memory usage
 Add cross-dataset evaluation
+```
 
 🧑‍💻 Author
 Harsh Bansal
